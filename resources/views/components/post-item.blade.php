@@ -1,5 +1,5 @@
 <article class="bg-white flex-col shadow my-4">
-                <!-- Article Image -->
+                <!-- Article Imagem -->
                 <a href="{{route('view', $post)}}" class="hover:opacity-75">
                     <img src="{{$post->getThumbnail()}}">
                 </a>
